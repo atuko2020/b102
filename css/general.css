@@ -138,7 +138,12 @@ p.pagetop:hover{
         transform: scale(1.5) translate(30%, 100px);
     }
 }
-
+@media(max-width:700px){
+    #container{
+        width: 100%;
+        max-width: auto;
+    }
+}
 /*modile*/
 @media screen and(max-width:767px){
     /*header*/
